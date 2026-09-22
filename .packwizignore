@@ -17,3 +17,6 @@ versions/
 logs/
 *.log
 world/
+
+# Repo docs
+*.md
