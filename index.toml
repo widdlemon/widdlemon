@@ -9,3 +9,33 @@ metafile = true
 file = "mods/fabric-api.pw.toml"
 hash = "9645e76b2915aa43b0918e1ef20e1c01b64ba9073e35c8bcd70cf34af8ab604e"
 metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "1d1a9561a82827bfb42f36a4746ca35af6c13de81c4d2f429604af5eb5199527"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "e10e639f71700a67d7f9b9d747e1685f838d703dadd432464b54e31b26f4742b"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "570b0f010c431efcaacf5210d9747ad671df80a67509ed61c5fe18cf4c9730b6"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "f03452b38a7ce73431c647b772f11051d30bb23891f6dfba1173a65319f4d7ac"
+metafile = true
