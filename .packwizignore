@@ -1,0 +1,19 @@
+# Dev tooling - never ship to players
+*.ps1
+.gitignore
+
+# Local test server lives in the repo folder but must never be indexed
+test-server/
+
+# Server runtime files, in case a server is ever run in the repo root
+server.jar
+fabric-server-*.jar
+fabric-server-launcher.properties
+packwiz-installer*.jar
+packwiz.json
+eula.txt
+libraries/
+versions/
+logs/
+*.log
+world/
