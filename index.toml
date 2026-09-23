@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "323cb520cff882a5521065d96996ee93c260e83012cfcfcb1ce16a39fe2857c9"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "14f64df0e72502d7f3a375eb92061c904dc68f8f415e7591a6345ccc12cfaba2"
 metafile = true
