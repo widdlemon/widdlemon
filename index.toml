@@ -34,7 +34,7 @@ hash = "1c6e2c90d4d7bbf497f83f1430507872ff3d4c3d7f2bf1585c5b3f6b74544447"
 
 [[files]]
 file = "config/fancymenu/assets/cm_textures/cm_title.png"
-hash = "8412b58cdc9e552f9ac7d05ac2ed7b8548cb7e1f68befb9d496092fa420e06ec"
+hash = "0ab513e6936369d1bf551ec746f327828d2f7e47b27903ef44fb6cad0921b2f8"
 
 [[files]]
 file = "config/fancymenu/assets/cm_textures/exit_button.png"
@@ -199,6 +199,10 @@ hash = "a9076d31f99a7c047a0312f28ab47b6238efd759be1bf5e1a8d72dccf7228368"
 [[files]]
 file = "config/openloader/resources/Cobblemon-Tips-3.0.zip"
 hash = "b53eaa9beaca3a27b3bd5ab62e9422cfd0c2bdc88d54602563dbfcf59fb93aa7"
+
+[[files]]
+file = "config/widdlemon/CREDITS.txt"
+hash = "610adfc97659ec0fbcc6796f64ad08d9baa4e35a80f31990b4405c9537173e72"
 
 [[files]]
 file = "config/yosbr/config/ali/ali_common.json"

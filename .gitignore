@@ -1,3 +1,8 @@
 test-server/
 *.md
 docs/
+# Exported packs
+*.mrpack
+
+# Build output
+dist/

@@ -72,8 +72,7 @@
       "shears": "✂",
       "bucket": "🪣",
       "bell": "🔔",
-      "item": "[%player:equipment_slot mainhand%]",
-      "pos": "%player:pos_x% %player:pos_y% %player:pos_z%"
+      "item": "[%player:equipment_slot mainhand%]"
     },
     "custom_message_types": {}
   },

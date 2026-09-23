@@ -1,0 +1,17 @@
+Widdlemon SMP modpack - credits and licenses
+============================================
+
+Based on the Cobblemon Official Modpack [Fabric] by CobbledStudios
+  https://modrinth.com/modpack/cobblemon-fabric - licensed MPL-2.0 (https://mozilla.org/MPL/2.0/)
+
+The title screen (config/fancymenu/: layouts, textures, background, slideshow images, menu music) and the
+Cobblemon Tips resource pack (config/openloader/resources/Cobblemon-Tips-3.0.zip) come from that pack.
+Files taken from it, including our modified versions, remain available under MPL-2.0.
+Cobblemon artwork (c) the Cobblemon team, licensed CC BY-NC 3.0
+  https://gitlab.com/cable-mc/cobblemon-assets - https://creativecommons.org/licenses/by-nc/3.0/
+Used non-commercially. Cobblemon: https://cobblemon.com
+
+Mods are downloaded from Modrinth and remain under their own licenses.
+Widdlemon logo and server branding (c) Widdlemon.
+
+Cobblemon is not affiliated with Nintendo, Creatures Inc., GAME FREAK or The Pokemon Company.

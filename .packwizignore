@@ -22,3 +22,13 @@ world/
 *.md
 # Server-only config overlay (copied onto the server by test-pack.ps1 / deploy)
 server/
+
+# Exported packs
+*.mrpack
+
+# Build output
+dist/
+
+# Repo-only folders
+docs/
+tools/
