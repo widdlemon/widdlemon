@@ -629,10 +629,6 @@ file = "config/yosbr/options.txt"
 hash = "78b112bd7fe4d3eb6f72eb25dc90a96dd9ec003bf02c9b12d183c81882b85778"
 
 [[files]]
-file = "config/yosbr/servers.dat"
-hash = "0bea0cd7f768a32022c64b7ec3b8070cfd6404bee1decbc708a02e40399b7a28"
-
-[[files]]
 file = "mods/advanced-loot-info.pw.toml"
 hash = "d80fb6fb00e0807a2f38319cbfa32ee526d2da8c164e88dfb3eea3e4e97de70c"
 metafile = true
@@ -1056,6 +1052,11 @@ metafile = true
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "c3fbe392c5ad5e0d5bf03673b91ba352fc4489ff0d3f3e02714e2d6bfd949a22"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "3b50b7fcf8b9dba6cc18f29a195b473fbb76ad54e2a5ddf2048ad3347aa639ae"
+preserve = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

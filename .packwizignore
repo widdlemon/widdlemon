@@ -20,3 +20,5 @@ world/
 
 # Repo docs
 *.md
+# Server-only config overlay (copied onto the server by test-pack.ps1 / deploy)
+server/

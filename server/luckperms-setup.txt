@@ -1,0 +1,74 @@
+# Widdlemon — LuckPerms setup
+# Source of truth for the LuckPerms setup. Run it with ONE console command:
+#     function widdlemon:setup_luckperms
+# (the same lines live in server/world/datapacks/widdlemon-admin/.../setup_luckperms.mcfunction —
+#  keep both in sync). Safe to re-run: it re-applies settings and never removes users from groups.
+# Don't paste these lines into a console one-by-one: a merged line corrupts the setup.
+#
+# Whitelisted server: every player starts as TRAINER. LuckPerms puts players with no other group in
+# 'default', and 'default' inherits 'trainer'. Ladder: untrusted < trusted < trainer (= default) < staff < admin.
+# Demote with 'lp user <p> parent set untrusted|trusted' — 'parent set' removes them from default.
+#
+# Claims are read by Open Parties and Claims from the meta keys below
+# (server/config/openpartiesandclaims-server.toml sets the default = 0 for untrusted players).
+# Players must relog for claim-limit changes to apply.
+
+# --- Groups and inheritance ---
+lp creategroup untrusted
+lp creategroup trusted
+lp creategroup trainer
+lp creategroup staff
+lp creategroup admin
+lp group untrusted setweight 5
+lp group trusted setweight 10
+lp group trainer setweight 20
+lp group staff setweight 50
+lp group admin setweight 100
+lp group trusted parent remove default
+lp group trainer parent add trusted
+lp group staff parent add trainer
+lp group admin parent add staff
+lp group default parent add trainer
+
+# --- Claim limits (chunks) and forceload limits ---
+lp group untrusted meta set xaero.pac_max_claims 0
+lp group trusted meta set xaero.pac_max_claims 150
+lp group trainer meta set xaero.pac_max_claims 250
+lp group staff meta set xaero.pac_max_claims 500
+lp group admin meta set xaero.pac_max_claims 1000
+lp group untrusted meta set xaero.pac_max_forceloads 0
+lp group trusted meta set xaero.pac_max_forceloads 5
+lp group trainer meta set xaero.pac_max_forceloads 10
+lp group staff meta set xaero.pac_max_forceloads 20
+lp group admin meta set xaero.pac_max_forceloads 50
+
+# --- Staff: moderation tools (no destructive/admin-only commands) ---
+lp group staff permission set ledger.commands.inspect true
+lp group staff permission set ledger.commands.search true
+lp group staff permission set ledger.commands.preview true
+lp group staff permission set ledger.commands.rollback true
+lp group staff permission set ledger.commands.tp true
+lp group staff permission set ledger.commands.player true
+lp group staff permission set ledger.commands.status true
+lp group staff permission set xaero.pac_claims_moderator_mode true
+lp group staff permission set spark true
+
+# --- Admin: everything staff has, plus overrides and server tools ---
+lp group admin permission set ledger.commands.* true
+lp group admin permission set xaero.pac_claims_admin_mode true
+lp group admin permission set xaero.pac_claims_impersonation true
+lp group admin permission set xaero.pac_claims_teleport true
+lp group admin permission set xaero.pac_server_claims true
+lp group admin permission set xaero.pac_parties_admin_mode true
+lp group admin permission set xaero.pac_parties_impersonation true
+lp group admin permission set chunky.* true
+lp group admin permission set styledchat.* true
+lp group admin permission set luckperms.* true
+
+# --- Assign people (examples; replace names) ---
+# New players need nothing: they're Trainers via 'default'.
+# lp user <player> parent set untrusted    # demote: no claims, gray name
+# lp user <player> parent set trusted      # demote: 150 claims, no tag
+# lp user <player> parent remove trusted   # restore to Trainer (falls back to default)
+# lp user <player> parent set staff
+# lp user <player> parent set admin
