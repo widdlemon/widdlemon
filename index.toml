@@ -6,6 +6,11 @@ hash = "14f64df0e72502d7f3a375eb92061c904dc68f8f415e7591a6345ccc12cfaba2"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "fe84e2227c405bf9b735f01f307a01768784b9d49df82a13ecda3d3b6d198507"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
 metafile = true
@@ -23,6 +28,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
 metafile = true
 
 [[files]]
@@ -48,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "7273fdb27bffd096608539b8d6356e1203273d96b6996c71c7c5f019ab5cdbc2"
 metafile = true
 
 [[files]]
