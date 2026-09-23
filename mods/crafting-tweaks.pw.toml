@@ -1,0 +1,13 @@
+name = "Crafting Tweaks"
+filename = "craftingtweaks-fabric-1.21.1-21.1.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DMu0oBKf/versions/U9eZqQPe/craftingtweaks-fabric-1.21.1-21.1.11.jar"
+hash-format = "sha512"
+hash = "5255861f9b1dfb26112994902d6b9c7705a83a6764c8286f8763f7ee3ce2dd480d96f4768b687c0810f7d881006051bb48a3f385e558ce688f319eea689d8d90"
+
+[update]
+[update.modrinth]
+mod-id = "DMu0oBKf"
+version = "U9eZqQPe"

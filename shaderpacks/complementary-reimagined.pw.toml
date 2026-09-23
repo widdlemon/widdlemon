@@ -1,0 +1,18 @@
+name = "Complementary Shaders - Reimagined"
+filename = "ComplementaryReimagined_r5.9.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/ErCjThzb/ComplementaryReimagined_r5.9.1.zip"
+hash-format = "sha512"
+hash = "b1ae05727dd006b1d95a3cd0830fd593a7372aa28030b17b39e8955d47bad6153a0c40aae440cd168b2faaafa5828d9cbe6b3b66eff087df1f010099d881ee03"
+
+[update]
+[update.modrinth]
+mod-id = "HVnmMxH1"
+version = "ErCjThzb"
+
+[option]
+optional = true
+default = true
+description = "Complementary Reimagined shaders (needs Iris)"
